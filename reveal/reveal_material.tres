@@ -1,0 +1,17 @@
+[gd_resource type="ShaderMaterial" load_steps=5 format=2]
+
+[ext_resource path="res://reveal/reveal.shader" type="Shader" id=1]
+[ext_resource path="res://reveal/base.png" type="Texture" id=2]
+[ext_resource path="res://reveal/hidden.png" type="Texture" id=3]
+[ext_resource path="res://reveal/mask_grad.png" type="Texture" id=4]
+
+[resource]
+
+render_priority = 0
+shader = ExtResource( 1 )
+shader_param/amount = 0.5
+shader_param/base = ExtResource( 2 )
+shader_param/hidden = ExtResource( 3 )
+shader_param/mask = ExtResource( 4 )
+_sections_unfolded = [ "shader_param" ]
+
