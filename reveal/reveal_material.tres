@@ -3,7 +3,7 @@
 [ext_resource path="res://reveal/reveal.shader" type="Shader" id=1]
 [ext_resource path="res://reveal/base.png" type="Texture" id=2]
 [ext_resource path="res://reveal/hidden.png" type="Texture" id=3]
-[ext_resource path="res://reveal/mask_grad.png" type="Texture" id=4]
+[ext_resource path="res://reveal/mask.png" type="Texture" id=4]
 
 [resource]
 

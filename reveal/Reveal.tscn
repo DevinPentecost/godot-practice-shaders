@@ -3,7 +3,7 @@
 [ext_resource path="res://reveal/reveal_material.tres" type="Material" id=1]
 [ext_resource path="res://reveal/base.png" type="Texture" id=2]
 
-[node name="Reveal" type="Sprite" index="0"]
+[node name="Reveal" type="Sprite"]
 
 material = ExtResource( 1 )
 position = Vector2( 75, 75 )

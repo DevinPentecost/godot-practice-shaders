@@ -20,12 +20,16 @@ void fragment() {
 	vec4 mask_color = texture(mask, sample_point);
 	
 	//How dark is it? Assuming greyscale, just use R
-	float intensity = 1.0 - mask_color.r;
+	float intensity = 1.0 - (mask_color.r);
 	
-	//Interpolate the hidden color based on that
+	//Get the hidden color at this point
 	vec4 hidden_color = texture(hidden, UV);
-	hidden_color = mix(color, hidden_color, hidden_color.a);
-	color = mix(color, hidden_color, intensity);
+	
+	//How much should we use the original color vs. the hidden overlay
+	vec4 overlay_color = mix(color, hidden_color, hidden_color.a);
+	
+	//The mask determines where (And how much) we use this overlay
+	color = mix(color, overlay_color, intensity);
 	
 	//Use the color
 	COLOR = color;

@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://transition/transition.tres" type="Material" id=1]
+[ext_resource path="res://transition/background.jpg" type="Texture" id=2]
+[ext_resource path="res://transition/Transition.gd" type="Script" id=3]
+[ext_resource path="res://ThresholdAnimation.tres" type="Animation" id=4]
+[ext_resource path="res://transition/ThresholdAnimation.gd" type="Script" id=5]
+
+[node name="Transition" type="Sprite" index="0"]
+
+material = ExtResource( 1 )
+position = Vector2( 235.923, 296.941 )
+scale = Vector2( 0.181156, 0.117502 )
+texture = ExtResource( 2 )
+script = ExtResource( 3 )
+_sections_unfolded = [ "Material" ]
+threshold = 0.0578101
+
+[node name="ThresholdAnimation" type="AnimationPlayer" parent="." index="0"]
+
+root_node = NodePath("..")
+autoplay = "Threshold"
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 0.5
+anims/Threshold = ExtResource( 4 )
+blend_times = [  ]
+script = ExtResource( 5 )
+_sections_unfolded = [ "Playback Options" ]
+
+
