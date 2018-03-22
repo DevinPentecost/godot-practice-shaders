@@ -14,7 +14,7 @@ scale = Vector2( 0.181156, 0.117502 )
 texture = ExtResource( 2 )
 script = ExtResource( 3 )
 _sections_unfolded = [ "Material" ]
-threshold = 0.0578101
+threshold = 0.407783
 
 [node name="ThresholdAnimation" type="AnimationPlayer" parent="." index="0"]
 
