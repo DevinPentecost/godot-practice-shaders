@@ -10,7 +10,7 @@ config_version=3
 
 [application]
 
-config/name="New Game Project"
+config/name="Practice Shaders"
 run/main_scene="res://reveal/Reveal.tscn"
 config/icon="res://icon.png"
 

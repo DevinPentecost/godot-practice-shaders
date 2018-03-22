@@ -1,7 +1,7 @@
 [gd_resource type="ShaderMaterial" load_steps=3 format=2]
 
 [ext_resource path="res://transition/transition.shader" type="Shader" id=1]
-[ext_resource path="res://transition/weird_mask.png" type="Texture" id=2]
+[ext_resource path="res://transition/transition_mask.png" type="Texture" id=2]
 
 [resource]
 
