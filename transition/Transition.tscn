@@ -3,8 +3,9 @@
 [ext_resource path="res://transition/transition.tres" type="Material" id=1]
 [ext_resource path="res://transition/background.jpg" type="Texture" id=2]
 [ext_resource path="res://transition/Transition.gd" type="Script" id=3]
-[ext_resource path="res://ThresholdAnimation.tres" type="Animation" id=4]
+[ext_resource path="res://transition/ThresholdAnimation.tres" type="Animation" id=4]
 [ext_resource path="res://transition/ThresholdAnimation.gd" type="Script" id=5]
+
 
 [node name="Transition" type="Sprite" index="0"]
 
