@@ -10,10 +10,10 @@ If you are interested in using this repo as a guide for learning, I highly recom
 ## Shader Complexity
 For those who are brand new to shader programming (like I was) this is a _rough_ order you can follow. They start relatively simply and progress towards more complex.
 
-1. [reveal]
-1. [invert]
-1. [transition]
-1. [color_fade]
+1. (reveal)[reveal]
+1. (invert)[invert]
+1. (transition)[transition]
+1. (color_fade)[color_fade]
 
 ## Inspiration
 Many of these shaders are inspired from YouTube Shader tutorials, such as:
