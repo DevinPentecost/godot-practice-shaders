@@ -5,6 +5,16 @@ Each shader is in it's own directory, and has an example scene, so please check 
 
 The .gif recordings don't do them justice (low quality, inconsistent framerate) - I recommend you download them and run them yourself!
 
+If you are interested in using this repo as a guide for learning, I highly recommend you follow along and _type in the code yourself_. It will never *stick* if you don't physically type them out - no copy and paste!
+
+## Shader Complexity
+For those who are brand new to shader programming (like I was) this is a _rough_ order you can follow. They start relatively simply and progress towards more complex.
+
+1. [reveal]
+1. [invert]
+1. [transition]
+1. [color_fade]
+
 ## Inspiration
 Many of these shaders are inspired from YouTube Shader tutorials, such as:
 * [Makin' Stuff Look Good](https://www.youtube.com/channel/UCEklP9iLcpExB8vp_fWQseg)
