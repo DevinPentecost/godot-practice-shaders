@@ -1,9 +1,9 @@
-# practice-shaders
-A collection of practice shaders for the Godot engine.
+# godot-practice-shaders
+A collection of practice shaders in the Godot engine.
 
-Each shader is in it's own scene, so please check them out. They have their own README files with more details.
+Each shader is in it's own directory, and has an example scene, so please check them out. They have their own README files with more details as well.
 
-The .gif recordings don't do them justice (low, inconsistent framerate) - I recommend you download them and run them yourself!
+The .gif recordings don't do them justice (low quality, inconsistent framerate) - I recommend you download them and run them yourself!
 
 ## Inspiration
 Many of these shaders are inspired from YouTube Shader tutorials, such as:
