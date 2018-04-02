@@ -8,6 +8,7 @@ The .gif recordings don't do them justice (low, inconsistent framerate) - I reco
 ## Inspiration
 Many of these shaders are inspired from YouTube Shader tutorials, such as:
 * [Makin' Stuff Look Good](https://www.youtube.com/channel/UCEklP9iLcpExB8vp_fWQseg)
+* [SteinCodes](https://steincodes.tumblr.com/)
 * Games that I've played that have shaders that interest me
 
 ## Tools

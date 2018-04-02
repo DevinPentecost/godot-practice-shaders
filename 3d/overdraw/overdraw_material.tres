@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://3d/overdraw/overdraw.shader" type="Shader" id=1]
+
+[resource]
+
+render_priority = 0
+shader = ExtResource( 1 )
+shader_param/overdraw_color = Color( 0.143372, 0.204603, 0.210938, 1 )
+_sections_unfolded = [ "shader_param" ]
+
