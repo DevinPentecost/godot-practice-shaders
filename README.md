@@ -14,7 +14,7 @@ For those who are brand new to shader programming (like I was) this is a _rough_
 1. [invert](2d/invert)
 1. [transition](2d/transition)
 1. [overdraw](3d/overdraw)
-1. [color_fade](color_fade)
+1. [color_fade](2d/color_fade)
 
 ## Inspiration
 Many of these shaders are inspired from YouTube Shader tutorials, such as:
