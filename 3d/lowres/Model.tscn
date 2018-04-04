@@ -1,0 +1,75 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="CylinderMesh" id=1]
+
+top_radius = 1.0
+bottom_radius = 1.0
+height = 2.0
+radial_segments = 64
+rings = 4
+
+[node name="Node" type="Node"]
+
+[node name="InterpolatedCamera" type="InterpolatedCamera" parent="." index="0"]
+
+transform = Transform( 1, 0, 0, 0, 0.73476, 0.678327, 0, -0.678327, 0.73476, 0, 4.10794, 4.95658 )
+keep_aspect = 1
+cull_mask = 3
+environment = null
+h_offset = 0.0
+v_offset = 0.0
+doppler_tracking = 0
+projection = 0
+current = false
+fov = 70.0
+size = 1.0
+near = 0.05
+far = 100.0
+target = NodePath("../Model")
+speed = 1.0
+enabled = true
+_sections_unfolded = [ "Transform" ]
+
+[node name="MeshInstance" type="MeshInstance" parent="." index="1"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+mesh = SubResource( 1 )
+skeleton = NodePath("..")
+material/0 = null
+
+[node name="DirectionalLight" type="DirectionalLight" parent="." index="2"]
+
+transform = Transform( 1, 0, 0, 0, 0.73476, 0.678327, 0, -0.678327, 0.73476, 0, 4.10794, 4.95658 )
+layers = 1
+light_color = Color( 1, 1, 1, 1 )
+light_energy = 1.0
+light_indirect_energy = 1.0
+light_negative = false
+light_specular = 0.5
+light_bake_mode = 1
+light_cull_mask = -1
+shadow_enabled = false
+shadow_color = Color( 0, 0, 0, 1 )
+shadow_bias = 0.1
+shadow_contact = 0.0
+shadow_reverse_cull_face = false
+editor_only = false
+directional_shadow_mode = 2
+directional_shadow_split_1 = 0.1
+directional_shadow_split_2 = 0.2
+directional_shadow_split_3 = 0.5
+directional_shadow_blend_splits = false
+directional_shadow_normal_bias = 0.8
+directional_shadow_bias_split_scale = 0.25
+directional_shadow_depth_range = 0
+directional_shadow_max_distance = 200.0
+
+

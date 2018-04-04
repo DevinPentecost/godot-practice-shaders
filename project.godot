@@ -14,6 +14,10 @@ config/name="Practice Shaders"
 run/main_scene="res://reveal/Reveal.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/resizable=false
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"
