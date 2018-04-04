@@ -10,7 +10,7 @@
 
 render_priority = 0
 shader = ExtResource( 1 )
-shader_param/amount = 0.113442
+shader_param/amount = 0.122382
 shader_param/fade_color = Color( 0, 0.953125, 1, 1 )
 shader_param/fade_threshold = 0.05
 shader_param/color_hold = 0.1
@@ -42,7 +42,7 @@ tracks/0/keys = {
 
 render_priority = 0
 shader = ExtResource( 1 )
-shader_param/amount = 0.123556
+shader_param/amount = 0.902713
 shader_param/fade_color = Color( 0, 0.953125, 1, 1 )
 shader_param/fade_threshold = 0.05
 shader_param/color_hold = 0.1
@@ -74,7 +74,7 @@ tracks/0/keys = {
 
 render_priority = 0
 shader = ExtResource( 1 )
-shader_param/amount = 0.658548
+shader_param/amount = 0.437697
 shader_param/fade_color = Color( 0, 0.953125, 1, 1 )
 shader_param/fade_threshold = 0.05
 shader_param/color_hold = 0.1
