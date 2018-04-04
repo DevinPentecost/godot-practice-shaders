@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://2d/invert/invert.shader" type="Shader" id=1]
+
+
+[resource]
+
+render_priority = 0
+shader = ExtResource( 1 )
+_sections_unfolded = [ "Resource" ]
+
