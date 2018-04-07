@@ -23,6 +23,9 @@ Many of these shaders are inspired from YouTube Shader tutorials, such as:
 * [SteinCodes](https://steincodes.tumblr.com/)
 * Games that I've played that have shaders that interest me
 
+## Application
+Although not directly related, I've also worked on some art scenes utilizing a few of these shaders. You can view them in the [godot-art](https://github.com/DevinPentecost/godot-art) github repo.
+
 ## Tools
 * These shaders were written in and for the [Godot Engine](https://godotengine.org/)
 * Other Text/Code editing done in [Visual Studio Code](https://code.visualstudio.com)
