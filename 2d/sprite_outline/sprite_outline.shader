@@ -36,21 +36,6 @@ void fragment() {
 		//We are in the regular sprite
 		final_color = texture_color;
 	}
-	/**
-	if(texture_color.a >= scaled_texture_color.a){
-		//We want to just show the regular
-		final_color = texture_color;
-	}
-	else{
-		//Do an outline
-		//final_color = outline_color;
-		final_color = vec4(scaled_texture_color.rgb, scaled_texture_color.a/5.0);
-	}
-	//If the scaled is full but not the texture, show an outline
-	//If neither are full, show nothing...
-	**/
-	//We want to mix in the outline color based on this difference
-	//vec3 mix_color = mix(texture_color.rgb, outline_color.xyz, alpha);
 	
 	//Draw the color
 	COLOR = final_color;
