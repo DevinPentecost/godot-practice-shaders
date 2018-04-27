@@ -7,6 +7,6 @@ If the mask's value is less than the input, the pixel is turned to black. Otherw
 The scene has an animation to change the material input value over time, with some easing.
 
 # Example
-![Spiral Transition](https://github.com/DevinPentecost/practice-shaders/blob/master/2d/transition/transition_spiral.gif "Spiral transition")
-![Weird Transition](https://github.com/DevinPentecost/practice-shaders/blob/master/2d/transition/transition_weird.gif "Pattern that is seperated into multiple segments")
+![Spiral Transition](./transition_spiral.gif "Spiral transition")
+![Weird Transition](./transition_weird.gif "Pattern that is seperated into multiple segments")
 

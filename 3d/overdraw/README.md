@@ -5,5 +5,5 @@ This basic 3d shader is a recreation of a common viewport setting in most editor
 The shader is really simple - it simply changes the fragment color to match the input color when rendering the image. By setting the render mode, we can achieve the effect.
 
 # Example
-![Example Overdraw](https://github.com/DevinPentecost/practice-shaders/blob/master/3d/overdraw/overdraw.gif "Simple Overdraw")
+![Example Overdraw](./overdraw.gif "Simple Overdraw")
 

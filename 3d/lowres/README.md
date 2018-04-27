@@ -15,5 +15,5 @@ For the example below, I have two objects with two materials using the same shad
 Overall, I think this turned out really neat. The main issue is getting this to implement nicely into a full project. There will be a lot of work making sure, for example, that each 3d camera matches the relative position of the 'main' camera, as well as any issues that would come up with z-indexing, lighting, coloring, etc.
 
 # Example
-![Example LowRes](https://github.com/DevinPentecost/practice-shaders/blob/master/3d/lowres/lowres.gif "Two objects at different resolutions.")
+![Example LowRes](./lowres.gif "Two objects at different resolutions.")
 

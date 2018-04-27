@@ -11,5 +11,5 @@ There is a linear animation applied to the amount so you can see it in action, a
 I think this effect could also be used for a 'burning paper' look if you changed the color to orange/red.
 
 # Example
-![Rough, Low-Res, and Smooth Noise](https://github.com/DevinPentecost/practice-shaders/blob/master/2d/color_fade/color_fade.gif "All three put together for comparison")
+![Rough, Low-Res, and Smooth Noise](./color_fade.gif "All three put together for comparison")
 

@@ -15,6 +15,7 @@ For those who are brand new to shader programming (like I was) this is a _rough_
 1. [transition](2d/transition)
 1. [overdraw](3d/overdraw)
 1. [color_fade](2d/color_fade)
+1. [sprite_outline](2d/sprite_outline)
 1. [lowres](3d/lowres)
 
 ## Inspiration
@@ -31,5 +32,6 @@ Although not directly related, I've also worked on some art scenes utilizing a f
 * Other Text/Code editing done in [Visual Studio Code](https://code.visualstudio.com)
 * Videos recorded using [LICECap](https://www.cockos.com/licecap/), [ScreenToGif](http://www.screentogif.com/) and [OBS](https://obsproject.com/)
 * Most (if not all) images created using [Paint.net](https://www.getpaint.net/)
+* * Some pixel art done with Pyxel Edit
 * 3d Models made in [Blender](https://www.blender.org/)
 * * Some models provided by [Kenney Game Assets](https://kenney.nl/)

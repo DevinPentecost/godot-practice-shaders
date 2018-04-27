@@ -7,5 +7,5 @@ The shader will not interact with anything else, including itself (for example, 
 I added some simple movements with two example gradients for the intensity.
 
 # Example
-![Example Invert](https://github.com/DevinPentecost/practice-shaders/blob/master/2d/invert/invert.gif "Simple Inversion with movement")
+![Example Invert](./invert.gif "Simple Inversion with movement")
 

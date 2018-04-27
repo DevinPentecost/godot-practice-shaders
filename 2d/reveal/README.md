@@ -7,6 +7,6 @@ It then uses the sampled intensity to determine how much of the base image shoul
 I added a simple sinusoidal movement to the mask to give it some motion.
 
 # Example
-![Simple Gradiant Mask](https://github.com/DevinPentecost/practice-shaders/blob/master/2d/reveal/reveal_1.gif "Simple Gradiant Mask")
-![Weird Mask](https://github.com/DevinPentecost/practice-shaders/blob/master/2d/reveal/reveal_bad.gif "Didn't turn out great")
+![Simple Gradiant Mask](./reveal_1.gif "Simple Gradiant Mask")
+![Weird Mask](./reveal_bad.gif "Didn't turn out great")
 
