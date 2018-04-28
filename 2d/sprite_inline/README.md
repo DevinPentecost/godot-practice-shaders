@@ -9,5 +9,5 @@ The example below has animations for two sprites, one with the shader and one wi
 It also animates the intensity to give a better idea of what it will look like.
 
 # Example
-![Example Outline](./inline.gif "We can see that the sprite doesn't change size too")
+![Example Inline](./inline.gif "We can see that the sprite doesn't change size too")
 
