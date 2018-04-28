@@ -1,0 +1,12 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://2d/sprite_inline/sprite_inline.shader" type="Shader" id=1]
+
+[resource]
+
+render_priority = 0
+shader = ExtResource( 1 )
+shader_param/intensity = 0.0
+shader_param/inline_color = Color( 0.00778198, 0.633299, 0.664063, 1 )
+_sections_unfolded = [ "shader_param" ]
+

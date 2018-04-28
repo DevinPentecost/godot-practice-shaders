@@ -13,5 +13,5 @@ In the following example, I have an unshaded (un-outlined) sprite moving up and 
 
 
 # Example
-![Example Outline](https://github.com/DevinPentecost/practice-shaders/blob/master/2d/sprite_outline/outline.gif "We can see that the sprite doesn't change size too")
+![Example Outline](./outline.gif "We can see that the sprite doesn't change size too")
 

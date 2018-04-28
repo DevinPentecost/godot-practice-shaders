@@ -1,0 +1,81 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://2d/sprite_inline/sprite_inline_material.tres" type="Material" id=1]
+[ext_resource path="res://2d/sprite_outline/smile.png" type="Texture" id=2]
+
+[sub_resource type="Animation" id=1]
+
+resource_name = "outline"
+length = 5.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:material:shader_param/intensity")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1, 3, 4.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 0.1, 0.0, 0.2 ]
+}
+
+[sub_resource type="Animation" id=2]
+
+resource_name = "hover"
+length = 5.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 3, 3.5, 4, 4.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 400, 350 ), Vector2( 400, 350 ), Vector2( 400, 150 ), Vector2( 400, 150 ), Vector2( 400, 350 ) ]
+}
+
+[node name="SpriteInline" type="Node" index="0"]
+
+[node name="Smile" type="Sprite" parent="." index="0"]
+
+material = ExtResource( 1 )
+position = Vector2( 400, 150 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Material", "Transform", "Visibility" ]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Smile" index="0"]
+
+root_node = NodePath("..")
+autoplay = "outline"
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/outline = SubResource( 1 )
+blend_times = [  ]
+_sections_unfolded = [ "Playback Options" ]
+
+[node name="SmileRegular" type="Sprite" parent="." index="1"]
+
+position = Vector2( 400, 150 )
+texture = ExtResource( 2 )
+_sections_unfolded = [ "Material", "Transform" ]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="SmileRegular" index="0"]
+
+root_node = NodePath("..")
+autoplay = "hover"
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/hover = SubResource( 2 )
+blend_times = [  ]
+_sections_unfolded = [ "Playback Options" ]
+
+
