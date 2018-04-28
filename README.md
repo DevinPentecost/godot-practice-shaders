@@ -17,6 +17,8 @@ For those who are brand new to shader programming (like I was) this is a _rough_
 1. [color_fade](2d/color_fade)
 1. [sprite_outline](2d/sprite_outline)
 1. [sprite_inline](2d/sprite_inline)
+1. [sprite_inoutline](2d/sprite_inoutline)
+1. [sprite_pixel_outline](2d/sprite_pixel_outline)
 1. [lowres](3d/lowres)
 
 ## Inspiration

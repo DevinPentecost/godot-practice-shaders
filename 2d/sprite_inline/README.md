@@ -10,4 +10,3 @@ It also animates the intensity to give a better idea of what it will look like.
 
 # Example
 ![Example Inline](./inline.gif "We can see that the sprite doesn't change size too")
-

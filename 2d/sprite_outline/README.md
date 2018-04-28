@@ -1,5 +1,7 @@
 # Sprite Outline
 
+>A better version of this shader can be found [here](../sprite_pixel_outline)
+
 Sprite outlining is a very common effect used in 2D games. Many engines come with this feature built in, but Godot did not seem to have that, so I decided to create a shader to handle it.
 It took a while to find a solution, but finally I have one that seems to keep pixel-perfect while adding the outline.
 
