@@ -11,15 +11,15 @@ The second example actually takes advantage of a ViewPort node to do the outline
 > For those unfamiliar with ViewPorts, they allow you to take a snapshot of a scene to use elsewhere. In this case, we take the viewport, and render it as a sprite elsewhere in the scene. then, we apply the shader to that sprite to get the effect.
 >
 >The Node Tree looks like:
-
-```
-root
--ViewPort
---Camera2D
---Sprite1
---Sprite2
--Sprite
-```
+>
+>```
+>root
+>-ViewPort
+>--Camera2D
+>--Sprite1
+>--Sprite2
+>-Sprite
+>```
 
 # Example
 ![Example Outline](./outline.png "Sprite with two shapes, each getting an outline")
