@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/dude.png-6d540eb5a0171302fd05191f03d545fd.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://2d/sprite_outline_noshader/dude.png"
-source_md5="3a550fee91d2a5ee38dc63d0ac7a9935"
-
 dest_files=[ "res://.import/dude.png-6d540eb5a0171302fd05191f03d545fd.stex" ]
-dest_md5="295fb3e320ec76eefb8a3ade9b274bf5"
 
 [params]
 
 compress/mode=3
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

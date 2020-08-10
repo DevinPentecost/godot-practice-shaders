@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/fade_mask_soft.png-68e3c50fa7b642f0c9ff32e80323c765.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://2d/color_fade/fade_mask_soft.png"
-source_md5="91374416d8d5db0a563abc9a34f71e4f"
-
 dest_files=[ "res://.import/fade_mask_soft.png-68e3c50fa7b642f0c9ff32e80323c765.stex" ]
-dest_md5="84cb996af1db1da8d6012d1f0aebdbb8"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

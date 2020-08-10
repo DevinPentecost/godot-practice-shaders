@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/icon.png-2899c38f78bb8982813a14e6ddc471c3.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://2d/sprite_outline_noshader/icon.png"
-source_md5="de96a85516bcd6f04876f32ea32e5224"
-
 dest_files=[ "res://.import/icon.png-2899c38f78bb8982813a14e6ddc471c3.stex" ]
-dest_md5="585e5dd652328f6f4ecb1fdc59e6b8a1"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

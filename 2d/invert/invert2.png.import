@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/invert2.png-175992c87b3155e11d70225d4788a03f.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://2d/invert/invert2.png"
-source_md5="f03dd566ba3da52f4fcecb4c600b407a"
-
 dest_files=[ "res://.import/invert2.png-175992c87b3155e11d70225d4788a03f.stex" ]
-dest_md5="615099d506f930d90221148e7fb71f84"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

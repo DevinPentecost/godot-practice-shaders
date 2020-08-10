@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/mask_grad.png-04af0ad2e7c1ea0c04d03962cc324b66.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://2d/reveal/mask_grad.png"
-source_md5="5d47d7e93aaf85ef440caaa04b9eff56"
-
 dest_files=[ "res://.import/mask_grad.png-04af0ad2e7c1ea0c04d03962cc324b66.stex" ]
-dest_md5="3a31c6146f00519e6310246ca6197f4d"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

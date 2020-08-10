@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/mask.png-78aeea92e47b3673dfdde40451d0a15d.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://2d/reveal/mask.png"
-source_md5="b6196c9033a9b5dc24f8b0d2d82e3218"
-
 dest_files=[ "res://.import/mask.png-78aeea92e47b3673dfdde40451d0a15d.stex" ]
-dest_md5="61ef7b0cb433ab1c3fe31adf09eaa62f"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/diamond_mask.png-73d288843a001fc94e17d51f6aafda0e.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://2d/transition/diamond_mask.png"
-source_md5="3c2efd709e382dbe3550cd24912877b7"
-
 dest_files=[ "res://.import/diamond_mask.png-73d288843a001fc94e17d51f6aafda0e.stex" ]
-dest_md5="1f50869c8c418176a518ac79530d231f"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true
