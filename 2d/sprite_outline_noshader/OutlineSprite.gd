@@ -56,4 +56,3 @@ func _update_outline():
 		#Update the color and threshold
 		outline_sprite.material.set_shader_param("target_color", outline_color)
 		outline_sprite.material.set_shader_param("alpha_threshold", outline_threshold)
-	
